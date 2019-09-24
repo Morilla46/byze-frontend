@@ -12,6 +12,9 @@
       <strong>We're sorry but byze doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
-    <!-- built files will be auto injected -->
+    <!-- cdn加速 -->
+    <% for (var i in htmlWebpackPlugin.options.cdn) { %>
+      <script src="<%= htmlWebpackPlugin.options.cdn[i] %>"></script>
+    <% } %>
   </body>
 </html>

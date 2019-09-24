@@ -1,0 +1,35 @@
+html {
+    font-size: 16px;
+}
+
+#app {
+    box-sizing: border-box;
+}
+
+.animated {
+    animation-duration: 1s !important;
+}
+
+.swiper-container {
+    overflow: visible !important;
+}
+
+.swiper-pagination {
+    position: absolute;
+    top: -0.15625rem;
+    text-align: right !important;
+}
+
+.my-bullet{
+    border-radius: 50%;
+    width: 0.0416667rem;
+    height: 0.0416667rem;
+    margin: 0 0.0520833rem;
+    display: inline-block;
+    background: rgba(0,0,0,0.20);
+    border: 0.00520833rem solid rgba(55,177,254,1);
+}
+  
+.my-bullet-active {
+    background: #37B1FE;
+}
