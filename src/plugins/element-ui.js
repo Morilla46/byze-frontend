@@ -21,6 +21,7 @@ import {
   Input,
   Row,
   Col,
+  Card,
   Table,
   TableColumn,
   Progress,
@@ -52,7 +53,8 @@ import {
   timeSelect,
   Rate,
   InputNumber,
-  Tag
+  Tag,
+  Backtop
 } from 'element-ui'
 
 Vue.prototype.$ELEMENT = { size: 'medium' }
@@ -75,6 +77,7 @@ Vue.use(FormItem)
 Vue.use(Input)
 Vue.use(Row)
 Vue.use(Col)
+Vue.use(Card)
 Vue.use(Table)
 Vue.use(TableColumn)
 Vue.use(Progress)
@@ -105,6 +108,7 @@ Vue.use(timeSelect)
 Vue.use(Rate)
 Vue.use(InputNumber)
 Vue.use(Loading.directive)
+Vue.use(Backtop)
 
 Vue.prototype.$loading = Loading.service
 Vue.prototype.$msgbox = MessageBox

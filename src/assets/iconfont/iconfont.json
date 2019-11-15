@@ -1,0 +1,16 @@
+{
+  "id": "1433179",
+  "name": "ByZe",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4503726",
+      "name": "upload",
+      "font_class": "upload",
+      "unicode": "e6e1",
+      "unicode_decimal": 59105
+    }
+  ]
+}
